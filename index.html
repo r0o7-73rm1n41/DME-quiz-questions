@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quiz Class 10th</title>
+  <title>Quiz Page</title>
   <style>
     * {
       box-sizing: border-box;
@@ -55,7 +55,7 @@
       margin: 30px auto;
       padding: 20px;
       width: 90%;
-      max-width: 500px;
+      max-width: 400px;
       text-align: center;
       background-color: #fff;
       transition: background 0.3s ease, color 0.3s ease;
@@ -96,7 +96,7 @@
     .options {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: px;
+      gap: 12px;
       margin-top: 20px;
     }
 
@@ -155,8 +155,8 @@
         font-size: 20px;
       }
       .dark-toggle {
-        font-size: px;
-        padding: 6px px;
+        font-size: 12px;
+        padding: 6px 12px;
       }
     }
   </style>
@@ -165,12 +165,12 @@
   <header>
     <div class="logo"><img src="logo-DME.png" alt="Logo"></div>
     <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
-    <h2>Quiz Class 10th</h2>
+    <h2>Quiz Class 12th</h2>
   </header>
 
   <div class="container">
-    <div class="question-counter" id="qCounter">प्रश्न 1/4</div>
-    <div class="question-time">🕗 08:00 PM</div>
+    <div class="question-counter" id="qCounter">प्रश्न 1/2</div>
+    <div class="question-time">08:00 PM</div>
     <div class="timer-circle" id="countdown">15</div>
 
     <div class="question-text" id="questionText">Loading...</div>
@@ -196,14 +196,6 @@
       {
         question: "फ्रांस में किस शासन वंश की पुन: स्थापना वियना कांग्रेस द्वारा की गई थी?",
         options: ["हैप्सबर्ग", "आर्लिया वंश", "बूर्बो वंश", "जारशाही"]
-      },
-      {
-        question: "मेजिनी का संबंध किस संगठन से था ?",
-        options: ["लाल सेना", "कार्बोनरी", "फिलिक हेटारिया", "डायट"]
-      },
-      {
-        question: "इटली एवं जर्मनी के एकीकरण के विरुद्ध निम्न में कौन था?",
-        options: ["इंग्लैण्ड", "रूस", "आस्ट्रिया", "प्रशा"]
       }
     ];
 
